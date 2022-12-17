@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif">
+    <style>
+      th,
+      td {
+        font-size: smaller;
+        line-height: 1.5;
+      }
+      tbody {
+        border: 1px solid black;
+      }
+      table {
+        border-collapse: collapse !important;
+      }
+      input {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+      }
+      .centerJustified {
+        text-align: center;
+    }
+    </style>
+    <h3 style="text-align: center; margin-top: 5px">BIO-DATA</h3>
+    <table width="100%" style="max-width: 580px; margin: auto">
+      <tbody style="border: 0px">
+        <tr width="100%">
+          <td>
+            <table width="100%">
+              <thead>
+                <tr height="0px">
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" bgcolor="black" style="color: white">
+                    PERSONAL DETAILS
+                  </td>
+                  <td colspan="1"></td>
+                  <!-- <td></td> -->                  
+                  <td rowspan="5" style="border: 1px solid black">
+                    
+                  </td>                  
+                </tr>
+                <tr>
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="position-desired">Position Desired:</label>
+                      <select name="position-desired" id="position-desired">
+                        <option disabled selected value></option>
+                        <option value="Architect">Architect</option>
+                        <option value="Mechanic">Mechanic</option>
+                        <option value="Recruiter">Recruiter</option>
+                        <option value="Mathematician">Mathematician</option>
+                        <option value="Locksmith">Locksmith</option>
+                        <option value="Architect">Translator</option>
+                      </select>
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date" />
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action=""><label for="name">Name</label>
+                      <input type="text" name="name" id="name" maxlength="50" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Sex:</label>
+                      <input type="radio" name="sex"><label for="sex">Male</label>
+                      <input type="radio" name="sex"><label for="sex">Female</label>
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action=""><label for="city">City Address</label>
+                      <input type="text" name="city" id="city" maxlength="100" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action=""><label for="province">Provincial Address</label>
+                      <input type="text" name="province" id="province" maxlength="100" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="birthdate">Date of Birth:</label>
+                      <input type="date" id="birthdate" name="birthdate"></form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action=""><label for="birthplace">Place</label>
+                      <input type="text" name="birthplace" id="birthplace" maxlength="50" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Civil Status:</label>
+                      <input type="radio" name="civil-status"><label for="civil-status">Single</label>
+                      <input type="radio" name="civil-status"><label for="civil-status">Maried</label>
+                      <input type="radio" name="civil-status"><label for="civil-status">Separated</label>
+                      <input type="radio" name="civil-status"><label for="civil-status">Widow</label>
+                      </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action=""><label for="citizenship">Citizenship:</label>
+                      <input type="text" name="citizenship" id="citizenship" maxlength="20" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action=""><label for="height">Height:</label>
+                      <input type="number" name="height" id="height" maxlength="5" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action=""><label for="weight">Weight:</label>
+                      <input type="number" name="weight" id="weight" maxlength="5" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="religion">Religion:</label>
+                      <select name="religion" id="religion">
+                        <option disabled selected value></option>
+                        <option value="Christian">Christian</option>
+                        <option value="Catholic">Catholic</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Hinduism">Hinduism</option>
+                        <option value="Buddhism">Buddhism</option>                        
+                      </select>
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action=""><label for="telephone">Telephone:</label>
+                      <input type="number" name="telephone" id="telephone" maxlength="10" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="hair-color">Color of Hair:</label>
+                      <select name="hair-color" id="hair-color">
+                        <option disabled selected value></option>
+                        <option value="Black">Black</option>
+                        <option value="Brown">Brown</option>
+                        <option value="Gray">Gray</option>
+                    </form>          
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="eye-color">Color of Eyes:</label>
+                      <select name="eye-color" id="eye-color">
+                        <option disabled selected value></option>
+                        <option value="Black">Black</option>
+                        <option value="Brown">Brown</option>
+                        <option value="Gray">Gray</option>
+                    </form>  
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action=""><label for="spouse">Spouse:</label>
+                      <input type="text" name="spouse" id="spouse" maxlength="50" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action=""><label for="occupation">Occupation:</label>
+                      <input type="text" name="occupation" id="occupation" maxlength="50" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">
+                    <form action=""><label for="address">Address:</label>
+                      <input type="text" name="address" id="address" maxlength="100" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">
+                    Number of Children, their names and date of birth:                    
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">                    
+                    <form action=""><label for="number-children">Name:</label>
+                      <input type="text" name="number-children" id="number-children" maxlength="100" class="no-outline">
+                      </form>
+                      <form action="">
+                        <label for="birthdate">Birthdate:</label>
+                        <input type="date" id="birthdate" name="birthdate">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">
+                    <form action=""><label for="number-children">Name:</label>
+                      <input type="text" name="number-children" id="number-children" maxlength="100" class="no-outline">
+                      </form>
+                      <form action="">
+                        <label for="birthdate">Birthdate:</label>
+                        <input type="date" id="birthdate" name="birthdate">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action=""><label for="father-name">Father's Name:</label>
+                      <input type="text" name="father-name" id="father-name" maxlength="100" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action=""><label for="occupation">Occupation:</label>
+                      <input type="text" name="occupation" id="occupation" maxlength="100" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <!-- <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action=""><label for="mother-name">Mother's Name:</label>
+                      <input type="text" name="mother-name" id="mother-name" maxlength="100" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action=""><label for="occupation">Occupation:</label>
+                      <input type="text" name="occupation" id="occupation" maxlength="100" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <!-- <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">                    
+                    <form action="">
+                      <label for="">Languages and Dialects ayou can speak or write:</label>
+                      <input type="checkbox" name="laguages"><label for="">English</label>
+                      <input type="checkbox" name="laguages"><label for="">Tagalog</label>
+                      <input type="checkbox" name="laguages"><label for="">Japanese</label>
+                      <input type="checkbox" name="laguages"><label for="">Korean</label>
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">                    
+                    <form action=""><label for="emergency-contact">Person to be contacted in case of emergency:</label>
+                      <input type="text" name="emergency-contact" id="emergency-contact" maxlength="100" class="no-outline">
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">                    
+                    <form action=""><label for="emergency-contact-info">His/Her Address:</label>
+                      <input type="text" name="emergency-contact-info" id="emergency-contact-info" maxlength="100" class="no-outline">
+                      <br>
+                      <form action=""><label for="telephone">Telephone #:</label>
+                        <input type="number" name="telephone" id="telephone" maxlength="10" class="no-outline">
+                        </form>
+                      </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" style="margin-top: 10px">
+              <thead>
+                <tr height="0px">
+                  <td width="20%"></td>
+                  <td width="40%"></td>
+                  <td width="40%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" bgcolor="black" style="color: white">
+                    EDUCATIONAL BACKGROUND
+                  </td>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black">&nbsp;</td>
+                  <td
+                    style="text-align: center; border-bottom: 1px solid black"
+                  >
+                    Name & Address of School                    
+                  </td>
+                  <td
+                    style="text-align: center; border-bottom: 1px solid black"
+                  >
+                    Year Graduated
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    Elementary:                  
+                    <input type="text" name="elementary" id="elementary" maxlength="100" class="no-outline" style="text-align: right;">                  
+                    <label for="date">&nbsp;</label>
+                      <input type="date" name="date" id="date">                        
+                  </td>
+                  </tr>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    High School:
+                    <input type="text" name="highschool" id="highschool" maxlength="100" class="no-outline">                  
+                    <label for="date">&nbsp;</label>
+                      <input type="date" name="date" id="date">
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    Vocational:
+                    <input type="text" name="vocational" id="vocational" maxlength="100" class="no-outline">                  
+                    <label for="date">&nbsp;</label>
+                      <input type="date" name="date" id="date">
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    College:
+                    <input type="text" name="college" id="college" maxlength="100" class="no-outline">                  
+                    <label for="date">&nbsp;</label>
+                      <input type="date" name="date" id="date">
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    &emsp;&emsp;Course:
+                    <input type="text" name="couse" id="couse" maxlength="100" class="no-outline">                  
+                    <label for="date">&nbsp;</label>
+                      <input type="date" name="date" id="date">
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    Special Skills:
+                    <input type="text" name="skills" id="skills" maxlength="100" class="no-outline">                  
+                    <label for="date">&nbsp;</label>
+                      <input type="date" name="date" id="date">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" style="margin-top: 10px">
+              <thead>
+                <tr height="0px">
+                  <td width="15%"></td>
+                  <td width="15%"></td>
+                  <td width="35%"></td>
+                  <td width="35%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" bgcolor="black" style="color: white">
+                    EMPLOYMENT RECORD
+                  </td>
+                </tr>
+                <tr style="text-align: center">
+                  <td style="border-bottom: 1px solid black">From
+                    <label for="date">&nbsp;</label>
+                    <input type="date" name="date" id="date">
+                  </td>
+                  <td style="border-bottom: 1px solid black">To
+                    <label for="date">&nbsp;</label>
+                    <input type="date" name="date" id="date">
+                  </td>
+                  <td style="border-bottom: 1px solid black">Position
+                    <input type="text" name="position" id="position" maxlength="50" class="no-outline" style="text-align: center;">
+                  </td>
+                  <td style="border-bottom: 1px solid black">Company
+                  <input type="text" name="company" id="company" maxlength="50" class="no-outline" style="text-align: center;">
+                </td>
+                </tr>                
+                  <tr style="text-align: center">
+                    <td style="border-bottom: 1px solid black">From
+                      <label for="date">&nbsp;</label>
+                      <input type="date" name="date" id="date">
+                    </td>
+                    <td style="border-bottom: 1px solid black">To
+                      <label for="date">&nbsp;</label>
+                      <input type="date" name="date" id="date">
+                    </td>
+                    <td style="border-bottom: 1px solid black">Position
+                      <input type="text" name="position" id="position" maxlength="50" class="no-outline" style="text-align: center;">
+                    </td>
+                    <td style="border-bottom: 1px solid black">Company
+                    <input type="text" name="company" id="company" maxlength="50" class="no-outline" style="text-align: center;">
+                  </td>
+                </tr>
+                <tr style="text-align: center">
+                  <td style="border-bottom: 1px solid black">From
+                    <label for="date">&nbsp;</label>
+                    <input type="date" name="date" id="date">
+                  </td>
+                  <td style="border-bottom: 1px solid black">To
+                    <label for="date">&nbsp;</label>
+                    <input type="date" name="date" id="date">
+                  </td>
+                  <td style="border-bottom: 1px solid black">Position
+                    <input type="text" name="position" id="position" maxlength="50" class="no-outline" style="text-align: center;">
+                  </td>
+                  <td style="border-bottom: 1px solid black">Company
+                  <input type="text" name="company" id="company" maxlength="50" class="no-outline" style="text-align: center;">
+                </td>
+                </tr>
+                <tr style="text-align: center">
+                  <td style="border-bottom: 1px solid black">From
+                    <label for="date">&nbsp;</label>
+                    <input type="date" name="date" id="date">
+                  </td>
+                  <td style="border-bottom: 1px solid black">To
+                    <label for="date">&nbsp;</label>
+                    <input type="date" name="date" id="date">
+                  </td>
+                  <td style="border-bottom: 1px solid black">Position
+                    <input type="text" name="position" id="position" maxlength="50" class="no-outline" style="text-align: center;">
+                  </td>
+                  <td style="border-bottom: 1px solid black">Company
+                  <input type="text" name="company" id="company" maxlength="50" class="no-outline" style="text-align: center;">
+                </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    &nbsp;
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" style="margin-top: 10px">
+              <thead>
+                <tr height="0px">
+                  <td width="15%"></td>
+                  <td width="15%"></td>
+                  <td width="35%"></td>
+                  <td width="35%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" bgcolor="black" style="color: white">
+                    CHARACTER REFERENCES
+                  </td>
+                </tr>
+                <tr style="text-align: center">
+                  <td colspan="2" style="border-bottom: 1px solid black">Name
+                    <input type="text" name="char-name" id="char-name" maxlength="50" class="no-outline" style="text-align: center;">                                  
+                  </td>
+                  <td style="border-bottom: 1px solid black">Occupation
+                    <input type="text" name="char-occupation" id="char-occupation" maxlength="50" class="no-outline" style="text-align: center;">
+                  </td>
+                  <td style="border-bottom: 1px solid black">Address
+                    <input type="text" name="char-address" id="char-address" maxlength="50" class="no-outline" style="text-align: center;">
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <input type="text" name="char-name" id="char-name" maxlength="50" class="no-outline" style="text-align: center;">                                  
+                    <input type="text" name="char-occupation" id="char-occupation" maxlength="50" class="no-outline" style="text-align: center;">
+                    <input type="text" name="char-address" id="char-address" maxlength="50" class="no-outline" style="text-align: center;">
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <input type="text" name="char-name" id="char-name" maxlength="50" class="no-outline" style="text-align: center;">                                  
+                    <input type="text" name="char-occupation" id="char-occupation" maxlength="50" class="no-outline" style="text-align: center;">
+                    <input type="text" name="char-address" id="char-address" maxlength="50" class="no-outline" style="text-align: center;">
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <input type="text" name="char-name" id="char-name" maxlength="50" class="no-outline" style="text-align: center;">                                  
+                    <input type="text" name="char-occupation" id="char-occupation" maxlength="50" class="no-outline" style="text-align: center;">
+                    <input type="text" name="char-address" id="char-address" maxlength="50" class="no-outline" style="text-align: center;">
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <input type="text" name="char-name" id="char-name" maxlength="50" class="no-outline" style="text-align: center;">                                  
+                    <input type="text" name="char-occupation" id="char-occupation" maxlength="50" class="no-outline" style="text-align: center;">
+                    <input type="text" name="char-address" id="char-address" maxlength="50" class="no-outline" style="text-align: center;">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" style="margin-top: 0px">
+              <thead>
+                <tr height="0px">
+                  <td width="40%"></td>
+                  <td width="10%"></td>
+                  <td width="20%"></td>
+                  <td width="10%"></td>
+                  <td width="30%"></td>
+                </tr>
+              </thead>
+              <tbody style="border: 0px">
+                <tr>
+                  <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="res-cert">Res. Cert. No A:</label>
+                      <input type="text" name="res-cert" id="res-cert" maxlength="15">
+                    </form>
+                  </td>
+                  <td></td>
+                  <td
+                    rowspan="6"
+                    style="
+                      border: 1px solid black;
+                      text-align: center;
+                      vertical-align: bottom;
+                    "
+                  >
+                  
+                    Right Thumb Mark
+                  
+                  </td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="issued-on">Issued At:</label>
+                      <input type="text" name="issued-on" id="issued-on" maxlength="15">
+                    </form>
+                    </td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="issued-at">Issued On:</label>
+                      <input type="date" name="issued-at" id="issued-at" maxlength="15">
+                    </form>
+                    </td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="sss">SSS:</label>
+                      <input type="number" name="sss" id="sss" maxlength="15">
+                    </form>
+                  </td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="tin">TIN:</label>
+                      <input type="number" name="tin" id="tin" maxlength="15">
+                    </form>
+                  </td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="nbi">NBI No:</label>
+                      <input type="number" name="nbi" id="nbi" maxlength="15">
+                    </form>
+                  </td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td style="border-bottom: 1px solid black"></td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="passport">Passport No:</label>
+                      <input type="number" name="passport" id="passport" maxlength="15">
+                    </form>
+                    </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td style="text-align: center">Applicant Signature</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
