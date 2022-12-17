@@ -1,0 +1,143 @@
+HTML Tag Alphabet
+
+<!--...-->		To add a comment
+<!DOCTYPE> 		To Define the type of HTML document
+
+<a>			To create a hyperlink
+<abbr>		Defines an abbreviation (short form of words or phrases)
+<acronym>		Deprecated in HTML5. Better to use <abbr> instead. To Define an acronym that is like an abbreviation
+<address>		To provide the contact details of author of the page/document
+<applet>		Deprecated in HTML5. Better to use <embed> or <object> instead. It was used to embed Java applets on the HTML document
+<area>		defines a clickable area as a hotspot inside an image-map where the user can click. New tag in HTML5
+<article>		To define an article (creates a separate block or section). New tag in HTML5	Video on <article> tag
+<aside>		Defines other content which is separate from the surrounding content. New tag in HTML5	Video on <aside> tag
+<audio>		Used to embed audio in web page. New tag in HTML5	Video on <audio> tag
+
+<b>			Defines bold text	Video on <b> tag
+<base>		Sets the base URL for all the relative URLs in a document	Video on <base> tag
+<basefont>		HTML5 does not support it. Use CSS Fonts instead. Earlier it was used to specify font size, color & font face for the HTML document	
+<bdi>			Denotes Bi-Directional Isolation. New tag in HTML5	Video on <bdi> tag
+<bdo>			Describes bi-directional override of the text	Video on <bdo> tag
+<blockquote>	To add/quote a block of text from another source	Video on <blockquote> tag
+<body>		Defines the actual content of the document which is displayed to the user	Video on <body> tag
+<br>			There is no End tag for this tag. Helps to add a line break inside a paragraph or block	Video on <br> tag
+<button>		To create clickable buttons like submit, reset, cancel, ok, etc.	Video on <button> tag
+
+<canvas>		New tag added in HTML5. Help to draw graphics on web page using JavaScript	Video on <canvas> tag
+<caption>		Defines a caption for the table	Video on <caption> tag
+<center>		Not supported in HTML5. Use <CSS Text > instead. Helps to align the text towards the center of the line.	
+<cite>		To add the title of the work	
+<code>		Defines text in computer code for formatting. This is one of the Phrase tags	Video on <cite> tag
+<col>			defines the properties for each column within <colgroup>	Video on <col> tag
+<colgroup>		Used to create a group of one or more columns in a table.	Video on <colgroup> tag
+
+<data>		Sets machine readable values for the given contents. New tag in HTML5	Video on <data> tag
+<datalist>		To show an item list containing a pre-defined option in a drop down list. New tag in HTML5	Video on <datalist> tag
+<dd>			describes about the short term(i.e. <dt> element) in the description list	Video on <dd> tag
+<del>			Defines the deleted text in HTML document	Video on <del> tag
+<details>		Gives an option to the user to show or hide the details about the heading of the <summary> tag. New tag in HTML5	Video on <details> tag
+<dfn>			HTML definition tag for a term	Video on <dfn> tag
+<dialog>		To create a dialog box or a pop up window. New tag in HTML5	Video on <dialog> tag
+<dir>			Depricated in HTML5. Describes directory list.Use <ul> instead.	
+<div>			Helps to create the layout of the Web Page by dividing an area into sections or divisions	Video on <div> tag
+<dl>			To define a description list	Video on <dl> tag
+<dt>			Defines the short term in description list	Video on <dt> tag
+
+<em>			To emphasize a text so it formats a text to emphasized text	Video on <em> tag
+<embed>		Dspecifies container for an external application, multimedia or interactive content into HTML document. New tag in HTML5	Video on <embed> tag
+
+<fieldset>		To create related data in a group inside a form	Video on <fieldset> tag
+<figcaption>	Sets a caption for the <figure> element. New tag in HTML5	Video on <figcaption> tag
+<figure>		Creates a self-contained media content with a caption. New tag in HTML5	Video on <figure> tag
+<font>		Deprecated in HTML5. Use <CSS > instead.
+Defines font face, size, and text color.	
+<footer>		Defines footer for page or section. New tag in HTML5	Video on <footer> tag
+<form>		To create the structure of a user Form	Video on <form> tag
+
+<h1> to <h6>	To add heading tags	Video on <h1> to <h6> tag
+<head>		To provide metadata(data about data) information of the HTML document	Video on <head> tag
+<header>		Contains heading elements, title, logo, author information, etc. New tag in HTML5	Video on <header> tag
+<hgroup>		Deprecated in HTML5. To group the multi level heading elements from <h1> to <h6>	
+<hr>			Inserts a horizontal line between paragraph level documents	Video on <hr> tag
+<html>		To define the root(foundation) element in the html page	Video on <html> tag
+
+<i>			Formats text in document to italic text	Video on <i> tag
+<iframe>		Allows us to present a web page within same web page	Video on <iframe> tag
+<img>			Adds an image in the HTML document	Video on <img> tag
+<input>		To add an input field where user can give their details in the given form	Video on <input> tag
+<ins>			A way to define an inserted text in HTML document	Video on <ins> tag
+
+<kbd>			Phrase tag that marks the input text as a keyboard input	Video on <kbd> tag
+<keygen>		Deprecated in HTML5. To generate a key pair i.e. a private encrypted key and a public key	
+
+<label>		Describes text label for the <input> tag field of the form	Video on <label> tag
+<legend>		describes caption (text label) for a parent element which is <fieldset> element	Video on <legend> tag
+<li>			Defines the list of items in Ordered List & Unordered List	Video on <li> tag
+<link>		Links external style sheets	Video on <link> tag
+
+<main>		New tag in HTML5. To place only the main content(most important information) of the document	Video on <main> tag
+<map>			represents a map within the <img> tag	Video on <map> tag
+<mark>		Highlights a part of the text on which it is applied. New tag in HTML5	Video on <mark> tag
+<menu>		specifies the list of commands which is used to build menus. Deprecated in HTML5	Video on <menu> tag
+<menuitem>		Defines a list of menu items (command) that the user can invoke from a popup menu. Deprecated in HTML5	
+<meta>		Describes the metadata of HTML page	Video on <meta> tag
+<meter>		Helps to create a gauge.New tag in HTML5	Video on <meter> tag
+
+<nav>			Defines an important block of navigation Links so that the users can easily navigate through the site. New tag in HTML5	Video on <nav> tag
+<noscript>		Acts as a fallback content for the <script> tag	Video on <noscript> tag
+
+<object>		To set a container for an external application	Video on <object> tag
+<ol>			Adds an ordered list	Video on <ol> tag
+<optgroup>		Gives an option to select an item from a group of a drop down list	Video on <optgroup> tag
+<option>		Displays option in drop down list	Video on <option> tag
+<output>		Shows the result of a calculation. New tag in HTML5	Video on <output> tag
+
+<p>			Creates paragraph of the document	Video on <p> tag
+<param>		To define parameters for embedded object	Video on <param> tag
+<pre>			To define preformatted text	Video on <pre> tag
+<progress>		To help to show a progress bar to show the progress of a task. New tag in HTML5	Video on <progress> tag
+
+<q>			Defines short quotations	Video on <q> tag
+
+<rp>			Helps the browsers to show a text if the browser does not support the ruby annotation. New tag in HTML5	Video on <rp> 			tag
+<rt>			Defines Character pronunciation of ruby annotations. New tag in HTML5	Video on <rt> tag
+<ruby>		Specifies a ruby annotation to display the pronunciation of East Asian languages spoken in countries like China, Hong Kong, Japan, Macau, Mongolia, North Korea, South Korea & Taiwan.	Video on <ruby> tag
+
+<s>			Strikes through a text to convey a message that this text is incorrect	Video on <s> tag
+<samp>		Phrase tag which describes sample output from the computer program	Video on <samp> tag
+<script>		Runs a client-side script which is called as JavaScript.	Video on <script> tag
+<section>		Defines an area/section of a document.New tag in HTML5	Video on <section> tag
+<select>		Defines a drop down list.	Video on <select> tag
+<small>		Decreases the font-size of the text	Video on <small> tag
+<source>		Specifies multimedia resources for <video> and <audio> elements. New tag in HTML5	Video on <source> tag
+<span>		Acts as a container for the inline elements and contents	Video on <span> tag
+<strike>		Deprecated in HTML5. Use <s> or <del> instead.
+Used to define strike through a given text to mark it as an incorrect text	
+<strong>		Makes a text as bold and marks it as an important text.	Video on <strong> tag
+<style>		Used to add style to the HTML document	Video on <style> tag
+<sub>			To show subscript	Video on <sub> tag
+<summary>		Defines a summary(heading) for the contents of the <details> element	Video on <summary> tag
+<sup>			To show superscript	Video on <sup> tag
+<svg>			Helps to describe the 2D Graphics and Graphical applications in XML for the website. New tag in HTML5	Video on <svg> tag
+
+<table>		Defines a table in the HTML document	Video on <table> tag
+<tbody>		Groups the body content in the table	Video on <tbody> tag
+<td>			Describes a cell containing data within the table of the HTML document	Video on <td> tag
+<template>		It can hide the content from the user in the document. New tag in HTML5	Video on <template> tag
+<textarea>		Represents a multi-line plain-text editing control	Video on <textarea> tag
+<tfoot>		groups the footer content in the table and you must code it inside its parent (inside a <table> tag)	Video on <tfoot> tag
+<th>			Defines the header content of the table in the HTML document	Video on <th> tag
+<thead>		Groups the header content in the table	Video on <thead> tag
+<time>		Used to describe date and time in HTML5 document. New tag in HTML5	Video on <time> tag
+<title>		Defines the title of the HTML document	Video on <title> tag
+<tr>			Defines a row in HTML table	Video on <tr> tag
+<track>		Defines time-based text track for media elements files like <video> and <audio> elements. New tag in HTML5	Video on <track> tag
+<tt>			Deprecated in HTML5. Stands for teletype text	
+
+<u>			To underline a text to check the spelling mistake or misspell texts	Video on <u> tag
+<ul>			To create an unordered list	Video on <ul> tag
+
+<var>			To define a variable	Video on <var> tag
+<video>		Used to embed video in web page. New tag in HTML5	Video on <video> tag
+
+<wbr>			Stands for word-break opportunity. New tag in HTML5
