@@ -1,0 +1,15 @@
+th,td {
+    text-align: left;
+    padding-bottom: 5px;
+  }
+  tbody {
+    border: 1px solid black;
+  }
+  table {
+    border-collapse: collapse;
+  }
+
+  ul li a { 
+    text-decoration:none;
+  }
+
